@@ -4,7 +4,7 @@
   "description": "Express in Sandbox",
   "main": "index.js",
   "scripts": {
-    "src":"nodemon index.js",
+    "src": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/JB-Tellez/express-box#readme",
   "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^10.0.1",
+    "babel-register": "^6.26.0",
     "dotenv": "^6.1.0",
+    "eslint": "^5.8.0",
     "express": "^4.16.4",
     "nodemon": "^1.18.5",
     "uuid": "^3.3.2"
